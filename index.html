@@ -4,10 +4,12 @@
 		<meta charset="utf-8">
 		<title> Portfolio </title>
 		<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"></link>
 		<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div id="mainContainer">
+		<!--Maincontainer start
+		<div id="mainContainer">-->
 
 			<div id="header">
 				<h1>Portfolio Gustav Enström</h1>
@@ -17,34 +19,37 @@
 					<a href="cv.html">CV</a>
 					<a href="contact.html">Contact</a>
 					
-					<img id="navPicture" src="img/cog.png">
+					<img class="navPicture" src="img/cog.png">
 				</nav>
 
 			</div>
 
-			<div id="rightContainer">
-				<ul>
-					<li><p>Coming together is a beginning; keeping together is prgress; working together is success</p> </li>
+			<div class="wrapper" style="max-width:800px">
+				<section id="imageSection">
+					<img class="mySlides" src="img/mountain.jpg">
+					<img class="mySlides" src="img/lake.jpg">
+					<img class="mySlides" src="img/bridge.jpg">
+				</section>
+				<section id="quoteSection">
+					<ul>
+					<li><p>Coming together is a beginning; keeping together is progress; working together is success</p> </li>
 					<li></li>
 					<li></li>
 					<li></li>
 					<li></li>
 
 				</ul>
+			</section>
 			</div>
+		<!--</div>-->
 
-			<div class="slidesContainer" style="max-width:800px">
-				<img class="mySlides" src="img/mountain.jpg">
-				<img class="mySlides" src="img/lake.jpg">
-				<img class="mySlides" src="img/bridge.jpg">
+			<div id="footer">
+				<a href="https://www.facebook.com/gustav.enstrom.3"><img class="socialIcon" src="img/fblogo.png"></a>
+				<a href="https://github.com/Knoxportion"><img class="socialIcon" src="img/githublogo.png"></a>
+				<p>&copy; Gustav Enström - 2016</p>
 
 			</div>
-
-
-
-		</div>
-
-
+			<script src="javascript/script.js"></script>
 	</body>
 
 </html>
