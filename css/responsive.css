@@ -1,27 +1,22 @@
 /*Small window*/
 @media screen and (min-width: 660px) {
-#mainContainer{
-	
-	background-color: #ccffee;
+#wrapper{
+
+	/*background-color: #ccffee;
 
 }
-#rightContainer{
-	float: bottom;
-}
+
 
 }
 
 
 /*Big window*/
 @media screen and (min-width: 1232px) {
-#mainContainer{
+#wrapper{
 	background-color: #eeffcc;
 
 }
 
-#rightContainer{
-	visibility: visible;
-}
 
 
 
