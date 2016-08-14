@@ -1,19 +1,54 @@
 /*Small window*/
-@media screen and (min-width: 660px) {
+@media screen and (max-width: 750px) {
 #wrapper{
 
-	/*background-color: #ccffee;
+	background-color: #ccffee;
 
 }
 
+#contactInfo{
+	height: 400px;
+	width: 70%;
+border: solid #88bbd6 5px;
+	/*float: right;*/
+	margin: 5% 5% 5% 15%;
+}
+
+#contactDescription{
+
+border: solid #88bbd6 5px;
+height: 400px;
+width: 70%;
+/*float: left;*/
+margin: 5% 5% 5% 15%;
+}
 
 }
 
 
 /*Big window*/
-@media screen and (min-width: 1232px) {
+@media screen and (min-width: 750px) {
 #wrapper{
 	background-color: #eeffcc;
+
+}
+
+
+#contactInfo{
+	height: 400px;
+	width: 300px;
+border: solid #88bbd6 5px;
+	float: right;
+	margin: 5% 5% 5% 0%;
+}
+
+#contactDescription{
+
+border: solid #88bbd6 5px;
+height: 400px;
+width: 300px;
+float: left;
+margin: 5% 0% 5% 5%;
 
 }
 
