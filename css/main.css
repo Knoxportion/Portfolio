@@ -10,33 +10,7 @@ margin-right: 15%;
 margin-left: 15%;
 }
 
-/*
-Sections
-*/
-#quoteSection{
-	margin-top: 20.5%;
-	margin-bottom: 5%;
-	float: right;
-	border: solid #88bbd6 5px;
-	width: 30%;
-	overflow: auto;
-}
 
-#quoteSection ul{
-list-style: none;
-margin-right: 5%;
-}
-
-#imageSection{
-	margin-top: 19%;
-	margin-bottom: 5%;
-	float: left;
-	width: 65%;
-}
-
-#imageSection img{
-	border: solid #88bbd6 5px;
-}
 
 /*
 HEADER
@@ -56,6 +30,10 @@ HEADER
 	font-size: 44px;
 }
 
+#header nav a:hover{
+	font-size: 56px;
+}
+
 #header h1{
 	margin-left: 2%;
 }
@@ -65,20 +43,8 @@ HEADER
 
 }
 
-#footer{
-		clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: 10%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-	background-color: #88bbd6;
-	text-align: center;
-}
-
 #footer p{
-	float: bottom;
+	/*float: bottom;*/
 margin-bottom: 10px;
 
 }
@@ -90,6 +56,7 @@ width: 30px;
 
 /*PICTURECLASSES*/
 .socialIcon{
+	margin-right: 1%;
 	width: 30px;
 	height: 30px;
 }
@@ -104,7 +71,7 @@ margin-left: 2%;
 .navPicture{
 	width: 420px;
 	height: 180px;
-	position: relative;
+	/*position: relative;*/
 }
 
 .mySlides{
@@ -165,6 +132,10 @@ background-image: url('../img/email.png');
 margin-top: 10%;
 margin-left: 15px;
 }
+
+/*********
+BODY
+*********/
 
 body{
 	background-color: #99d3df;

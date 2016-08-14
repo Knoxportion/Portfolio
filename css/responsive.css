@@ -1,56 +1,152 @@
-/*Small window*/
+/****************
+Small window
+****************/
 @media screen and (max-width: 750px) {
 #wrapper{
 
-	background-color: #ccffee;
+
+		}
+		/********
+		ALL PAGES
+		********/
+
+		#footer{
+				clear: both;
+		    position: relative;
+		    z-index: 10;
+		    height: 3em;
+		    margin-top: 10%;
+				margin-bottom: 5%;
+		    padding-top: 2.5%;
+		    padding-bottom: 5%;
+			background-color: #88bbd6;
+			text-align: center;
+		}
+
+			/***************
+			HOME PAGE
+			***************/
+					/*********
+					Sections
+					**********/
+		#quoteSection{
+			margin-top: 20.5%;
+			margin-bottom: 5%;
+			border: solid #88bbd6 5px;
+			width: 80%;
+			overflow: auto;
+		}
+
+		#quoteSection ul{
+		list-style: none;
+		margin-right: 5%;
+		}
+
+		#imageSection{
+			margin-top: 5%;
+			margin-bottom: 5%;
+			width: 80%;
+		}
+
+		#imageSection img{
+			border: solid #88bbd6 5px;
+		}
+
+			/***********'*
+			CONTACT PAGE
+			*************/
+
+		#contactInfo{
+			height: 400px;
+			width: 70%;
+		border: solid #88bbd6 5px;
+			margin: 5% 5% 5% 15%;
+		}
+
+		#contactDescription{
+
+		border: solid #88bbd6 5px;
+		height: 400px;
+		width: 70%;
+		margin: 5% 5% 5% 15%;
+		}
 
 }
 
-#contactInfo{
-	height: 400px;
-	width: 70%;
-border: solid #88bbd6 5px;
-	/*float: right;*/
-	margin: 5% 5% 5% 15%;
-}
 
-#contactDescription{
-
-border: solid #88bbd6 5px;
-height: 400px;
-width: 70%;
-/*float: left;*/
-margin: 5% 5% 5% 15%;
-}
-
-}
-
-
-/*Big window*/
+/********************
+Big window
+*********************/
 @media screen and (min-width: 750px) {
-#wrapper{
-	background-color: #eeffcc;
+			#wrapper{
+				background-color: #eeffcc;
 
-}
+			}
 
+			/********
+			ALL PAGES
+			********/
+			#footer{
+					clear: both;
+			    position: relative;
+			    z-index: 10;
+			    height: 3em;
+			    margin-top: 10%;
+					margin-bottom: 5%;
+			    padding-top: 2.5%;
+			    padding-bottom: 5%;
+				background-color: #88bbd6;
+				text-align: center;
+			}
 
-#contactInfo{
-	height: 400px;
-	width: 300px;
-border: solid #88bbd6 5px;
-	float: right;
-	margin: 5% 5% 5% 0%;
-}
+			/******************
+			HOME PAGE
+			******************/
+			#quoteSection{
+				margin-top: 20.5%;
+				margin-bottom: 5%;
+				float: right;
+				border: solid #88bbd6 5px;
+				width: 30%;
+				overflow: auto;
+			}
 
-#contactDescription{
+			#quoteSection ul{
+			list-style: none;
+			margin-right: 5%;
+			}
 
-border: solid #88bbd6 5px;
-height: 400px;
-width: 300px;
-float: left;
-margin: 5% 0% 5% 5%;
+			#imageSection{
+				margin-top: 19%;
+				margin-bottom: 5%;
+				float: left;
+				width: 65%;
+			}
 
-}
+			#imageSection img{
+				border: solid #88bbd6 5px;
+			}
+			/*********
+			CONTACT PAGE
+			**********/
+
+			#contactInfo{
+				height: 400px;
+				width: 300px;
+			border: solid #88bbd6 5px;
+				float: right;
+				margin: 5% 5% 5% 0%;
+			}
+
+			#contactDescription{
+
+			border: solid #88bbd6 5px;
+			height: 400px;
+			width: 300px;
+			float: left;
+			margin: 5% 0% 5% 5%;
+
+			}
 
 
 
