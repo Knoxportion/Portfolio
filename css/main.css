@@ -22,6 +22,7 @@ HEADER
 	width: 100%;
 	background-color: #88bbd6;
 	padding-bottom: 2%;
+	/*position: fixed;*/
 }
 
 #header nav a{
